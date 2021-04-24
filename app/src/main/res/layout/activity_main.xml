@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/a" />
+
+    <TextView
+        android:id="@+id/teks1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="734dp"
+        android:layout_marginLeft="300dp"
+        android:text=" BELIFT"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/teks2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="755dp"
+        android:layout_marginLeft="270dp"
+        android:text="  Lift to be moved"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/teks3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="70dp"
+        android:text="Debut Extended Play"
+        android:textSize="25sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/teks4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="204dp"
+        android:layout_marginLeft="147dp"
+        android:text="Preview"
+        android:fontFamily="monospace"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/teks5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="517dp"
+        android:layout_marginLeft="117dp"
+        android:text="Border: Day One"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/teks6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="553dp"
+        android:layout_marginLeft="130dp"
+        android:text="by"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/teks7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="155dp"
+        android:text="ENHYPEN"
+        android:fontFamily="monospace"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/teks8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="750dp"
+        android:layout_marginLeft="5dp"
+        android:text="Release date November 30th"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/teks9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="760dp"
+        android:layout_marginLeft="5dp"
+        android:text="Pre-order starts October 28th"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="245dp"
+        android:textColor="@color/white"
+        android:textSize="11dp"
+        android:hint="   title   "/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="285dp"
+        android:textColor="@color/white"
+        android:hint="   artist   "
+        android:textSize="11dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="45dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="338dp"
+        android:layout_marginTop="2dp"
+        android:text="find"
+        android:textColor="#ffff"
+        android:textSize="5sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:hint="   family site   "
+        android:textSize="11dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="45dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="2dp"
+        android:text="find"
+        android:textColor="#ffff"
+        android:textSize="5sp"
+        />
+    
+</RelativeLayout>
